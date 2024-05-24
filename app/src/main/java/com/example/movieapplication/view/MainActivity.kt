@@ -84,11 +84,18 @@ class MainActivity : ComponentActivity() {
                         .fillMaxSize()
                         .background(gradientBrush)
                 ) {
+
+                    // NAV CONTROLLER (HOME)
                     val navController = rememberNavController()
+
                     NavHost(navController = navController, startDestination = "movies") {
+
+                        // HOME
                         composable("movies") {
                             MoviesScreen(movieViewModel, apiKey, navController)
                         }
+
+                        // MOVIE DETAIL SCREEN
                         composable("movieDetails/{movieId}") { backStackEntry ->
                             val movieId = backStackEntry.arguments?.getString("movieId")?.toIntOrNull()
                             movieId?.let {
