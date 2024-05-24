@@ -25,3 +25,5 @@ IMAGE 1: Home screen
 IMAGE 2: Detailed overview screen
 
 IMAGE 3: Image loading icon (inspired from NOW TV)
+
+App was tested using the Google Pixel 4XL (latest Android version)
