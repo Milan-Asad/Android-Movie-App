@@ -1,7 +1,8 @@
 ANDROID MOVIE (TMDB) APP
 
 DESCRIPTION:
-App fetches data from API and displays it in a card.
+App fetches data from API and displays it in a card. 
+I aim to finish this app when I'm free (most of it is done, there are a few tweaks needed)
 
 TECH STACK:
 - Kotlin
